@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd98ee2d5a7f7e3428a3bfab702f76a4, type: 3}
+  m_Name: MultiGerstnerWavesSetting
+  m_EditorClassIdentifier: 
+  waveCount: 3
+  material: {fileID: 2100000, guid: 5b77cf200757c3747bcf5facb48c6d79, type: 2}
+  param1:
+    IsDirWave: 1
+    DirOrPos: {x: 0.1, y: 0.1}
+    Contribution: 1
+    Amplitude: 2
+    Frequency: 1
+    Fluctuation: 5
+    Steepness: 4
+  param2:
+    IsDirWave: 1
+    DirOrPos: {x: 0.2, y: 0.1}
+    Contribution: 0.5
+    Amplitude: 0.24
+    Frequency: 5
+    Fluctuation: 10
+    Steepness: 4
+  param3:
+    IsDirWave: 0
+    DirOrPos: {x: 10, y: 0}
+    Contribution: 0.5
+    Amplitude: 0.1
+    Frequency: 5
+    Fluctuation: 8.58
+    Steepness: 0.01
+  param4:
+    IsDirWave: 0
+    DirOrPos: {x: 1, y: 2}
+    Contribution: 0.4
+    Amplitude: 0.05
+    Frequency: 5
+    Fluctuation: 10.12
+    Steepness: 0.01
